@@ -51,12 +51,11 @@
         .addEventListener("submit", function (e) {
           e.preventDefault();
 
-          const project = document.getElementById("project").valueAsNumber;
-          const quiz = document.getElementById("quiz").valueAsNumber;
-          const midterm = document.getElementById("midterm").valueAsNumber;
-          const finals = document.getElementById("finals").valueAsNumber;
-          const activities =
-            document.getElementById("activities").valueAsNumber;
+          const project = document.getElementById("project").value;
+          const quiz = document.getElementById("quiz").value;
+          const midterm = document.getElementById("midterm").value;
+          const finals = document.getElementById("finals").value;
+          const activities = document.getElementById("activities").value;
 
           const result = calculateGrade(
             project,
