@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Closure Counter Calculator</title>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 30px;
+    }
+    .box {
+      width: 300px;
+      padding: 20px;
+      border: 2px solid #444;
+      border-radius: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px 15px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Calculator Using Counter Function (Closures)</h2>
+  <p>This simple calculator uses a counter created with closures. Each button press increments the counter.</p>
+
+  <div class="box">
+    <p><strong>Current Count:</strong> <span id="count">0</span></p>
+
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="resetCounter()">Reset</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
